@@ -3,11 +3,37 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --page-background: rgba(188, 192, 196, 1);
+  --background: rgba(255, 255, 255, 1);
   --foreground: #171717;
+  --icon-background: rgba(228, 230, 235, 1);
+  --icon-color: #080809;
+  --title-color: #050505;
+  --subtitle-color: #8a8d91;
+  --hashtag-color: #1763cf;
 }
 
-@media (prefers-color-scheme: dark) {
+.text-subtitle-color {
+  color: var(--subtitle-color);
+}
+
+.bg-page-background {
+  background-color: var(--page-background);
+}
+
+.bg-icon-background {
+  background-color: var(--icon-background);
+}
+
+.text-title-color {
+  color: var(--title-color);
+}
+
+.fill-icon-color {
+  fill: var(--icon-color);
+}
+
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
