@@ -28,6 +28,7 @@ const Video = () => {
               height: "100%",
             }}
             referrerPolicy="origin"
+            title="vsl"
           ></iframe>
         </div>
       </div>

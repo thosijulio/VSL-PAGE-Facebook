@@ -12,6 +12,11 @@
   --subtitle-color: #8a8d91;
   --hashtag-color: #1763cf;
   --description-color: #46484B;
+  --box-background: rgba(242, 244, 247, 1.0)
+}
+
+.bg-box-background {
+  background-color: var(--box-background)
 }
 
 .text-description-color {
