@@ -1,17 +1,8 @@
 import dynamic from "next/dynamic";
 
-import PostDetails from "./components/PostDetails";
-import Video from "./components/Video";
-
-const DynamicPostDetails = dynamic(() => import("./components/PostDetails"), {
-  ssr: false,
-});
-const DynamicVideo = dynamic(() => import("./components/Video"), {
-  ssr: false,
-});
-const DynamicPostStats = dynamic(() => import("./components/PostStats"), {
-  ssr: false,
-});
+const DynamicPostDetails = dynamic(() => import("./components/PostDetails"));
+const DynamicVideo = dynamic(() => import("./components/Video"));
+const DynamicPostStats = dynamic(() => import("./components/PostStats"));
 
 export default function Home() {
   return (
