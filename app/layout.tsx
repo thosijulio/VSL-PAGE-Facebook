@@ -22,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${roboto.className} bg-page-background`}>
+      <body
+        className={`${roboto.className} bg-page-background h-[100dvh] max-h-[10dvh] w-[100dvw] max-w-[100dvw]`}
+      >
         {/* <Script
           id="facebook-login"
           dangerouslySetInnerHTML={{

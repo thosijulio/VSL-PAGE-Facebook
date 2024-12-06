@@ -11,6 +11,11 @@
   --title-color: #050505;
   --subtitle-color: #8a8d91;
   --hashtag-color: #1763cf;
+  --description-color: #46484B;
+}
+
+.text-description-color {
+  color: var(--description-color)
 }
 
 .text-subtitle-color {
